@@ -84,12 +84,13 @@ This study aims to:
 
 ### 2.1 Dataset Description
 
-**Source:** Medical Text Classification Dataset - [Kaggle Link](https://www.kaggle.com/datasets/chaitanyakck/medical-text?select=test.dat)  
-**Original Files:** `train.dat` (14,438 records) and `test.dat` (14,442 records)  
-**Used File:** `test.dat` (renamed to `clinical.txt`)  
-**License:** [CC0: Public Domain]()
-**Size:** 14,442 medical abstracts 
-**Domain:** Medical/Clinical abstracts  
+**Source:** Medical Text Classification Dataset - [Kaggle Link](https://www.kaggle.com/datasets/chaitanyakck/medical-text?select=test.dat) 
+
+- **Original Files:** `train.dat` (14,438 records) and `test.dat` (14,442 records)  
+- **Used File:** `test.dat` (renamed to `clinical.txt`) 
+- **License:** [CC0: Public Domain]()
+- **Size:** 14,442 medical abstracts 
+- **Domain:** Medical/Clinical abstracts  
 
 ### 2.1.1 Dataset Context
 
@@ -141,10 +142,12 @@ Implemented a sophisticated preprocessing pipeline (`AdvancedTextPreprocessor`) 
 - **Stopword analysis and removal**: Generated initial word clouds to visualize corpus content, then systematically removed common English stopwords to focus on medical terminology 
 
 ![](img/1.png)
+
 *Lots of stopwords which is not relavent to the corpus*
 
 ![](img/2.png)
-*Stopwords removed and tells a lot about the corpus*
+
+*Stopwords removed and understand a lot about the corpus*
 
 
 #### 2.3.2 Tokenization Strategy
@@ -287,6 +290,7 @@ Evaluated the model's ability to capture semantic relationships using medical wo
 For key medical terms,analyzed the top-10 most similar words to assess semantic clustering:
 
 **Example - "tumor":**
+
 ![](img/3.png)
 
 ### 5.3 Extrinsic Evaluation Methods
