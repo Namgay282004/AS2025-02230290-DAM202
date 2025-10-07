@@ -143,7 +143,7 @@ Both models used KerasTuner for optimization:
 ## Detailed Analysis
 
 ### Performance Metrics Comparison
-```
+
 Sequence Length: 60 steps
 
 | Metric     | LSTM      | GRU       | Winner |
@@ -152,7 +152,7 @@ Sequence Length: 60 steps
 | **MAE**     | 0.9000°C  | 1.2414°C  | LSTM    |
 | **R² Score**| 0.9531    | 0.8717    | LSTM    |
 | **MAPE (%)**| 3.12%     | 5.28%     | LSTM    |
-```
+
 
 ### Training Efficiency
 - **LSTM**: Slower training but better final performance
