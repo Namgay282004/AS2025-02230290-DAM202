@@ -83,71 +83,6 @@
 
 ---
 
-## Quick Start Guide
-
-### **1. Environment Setup**
-
-The entire implementation is now contained in a single Jupyter notebook for easy execution and experimentation.
-
-```bash
-# Clone/navigate to project directory
-cd practical7/
-
-# Ensure you have the required packages (install if needed)
-!pip install torch transformers datasets scikit-learn matplotlib seaborn numpy pandas tqdm
-```
-
-### **2. Running the Complete Implementation**
-
-**Option 1: Using Jupyter Notebook (Recommended)**
-```bash
-# Start Jupyter Notebook
-jupyter notebook
-
-# Open Multitask_NER&QA.ipynb
-# Execute cells sequentially from Section 1 to Section 8
-```
-
-**Option 2: Using Google Colab**
-1. Upload `Multitask_NER&QA.ipynb` to Google Colab
-2. Mount Google Drive (if needed for data persistence)
-3. Execute all cells in order
-
-### **3. Notebook Structure**
-
-The `Multitask_NER&QA.ipynb` notebook contains the following sections:
-
-1. **Section 1**: Import Required Libraries
-2. **Section 2**: Multi-Task Model Architecture  
-3. **Section 3**: Data Processing Pipeline
-4. **Section 4**: Training Framework
-5. **Section 5**: Comprehensive Visualization Tools
-6. **Section 6**: Training Execution
-7. **Section 7**: Results Analysis and Visualization
-8. **Section 8**: Model Inference and Testing
-
-
-### **4. Execution Instructions**
-
-```python
-# Simply run all cells sequentially in the notebook
-# The notebook will automatically:
-# 1. Set up the environment and load datasets
-# 2. Initialize and train the multi-task model
-# 3. Generate comprehensive visualizations
-# 4. Demonstrate inference capabilities
-# 5. Provide detailed analysis and insights
-
-# For quick testing, you can modify the training configuration:
-config = TrainingConfig(
-    num_epochs=2,  # Reduce for quick testing
-    batch_size=8,   # Adjust based on available memory
-    learning_rate=2e-5,
-    output_dir="./quick_test_outputs"
-)
-```
----
-
 ## Implementation Details
 
 ### **Data Processing Pipeline**
@@ -430,4 +365,3 @@ Based on typical training runs with the implemented architecture:
 
 ---
 
-*This comprehensive implementation demonstrates advanced understanding of multi-task learning, BERT architectures, and production-quality deep learning systems. The combination of both theoretical and practical implementation makes it an excellent foundation for both academic understanding and real-world applications.*
